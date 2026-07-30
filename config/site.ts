@@ -8,7 +8,7 @@ export const siteConfig = {
   themeColor: "#000000",
   title: "CCM Academy Out",
   description:
-    "Projeto prático desenvolvido pelos alunos do CCM Academy Out. Open source, construído para aprender fazendo.",
+    "Projeto prático desenvolvido pelos alunos do CCM Academy Out, construído para aprender fazendo.",
   author: "CCM Tecnologia",
   links: {
     linkedin: "https://www.linkedin.com/company/ccm-tecnologia",

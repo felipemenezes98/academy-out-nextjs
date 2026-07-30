@@ -1,7 +1,7 @@
 const LEFT_IMAGE =
-  "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=900&auto=format&fit=crop"
+  "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/ccmtecnologiadc01/b/website-ccm/o/WhatsApp%20Image%202026-07-22%20at%2021.20.11.jpeg"
 const RIGHT_IMAGE =
-  "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=900&auto=format&fit=crop"
+  "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/ccmtecnologiadc01/b/website-ccm/o/720e9127-ff26-4f2b-9c99-39453b37f0ae.jpg"
 
 export function StatementSection() {
   return (
@@ -19,11 +19,11 @@ export function StatementSection() {
               Filosofia
             </p>
             <h2 className="max-w-md text-2xl leading-tight font-semibold tracking-tight sm:text-3xl md:text-4xl">
-              IA acelera. Critério define.
+              Fazer é a única forma de aprender.
             </h2>
             <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">
-              No Academy Out, a inteligência artificial é parceira de trabalho,
-              não substituto de pensamento. O resultado final é do aluno.
+              No Academy Out, cada aluno constrói do zero, testa na prática e
+              sai com um projeto que existe de verdade.
             </p>
           </div>
 

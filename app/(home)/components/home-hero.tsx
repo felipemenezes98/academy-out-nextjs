@@ -29,8 +29,7 @@ export function HomeHero() {
             Academy Out
           </h1>
           <p className="max-w-md text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Programa prático de formação em frontend, produto e inteligência
-            artificial.
+            Formação prática em tecnologia, com mentoria da CCM Tecnologia.
           </p>
         </motion.div>
       </div>

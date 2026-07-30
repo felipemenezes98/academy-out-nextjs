@@ -1,5 +1,5 @@
 const IMAGE =
-  "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1200&auto=format&fit=crop"
+  "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/ccmtecnologiadc01/b/website-ccm/o/a67dbfd1a90a46151cc80144ef2d297a3bd47f89-1280x960.webp"
 
 export function AboutSection() {
   return (
@@ -14,14 +14,12 @@ export function AboutSection() {
           </h2>
           <div className="flex max-w-sm flex-col gap-4 text-sm leading-relaxed text-muted-foreground">
             <p>
-              É o programa de formação prática da CCM Tecnologia. A turma
-              aprende frontend construindo um projeto real, com apoio de
-              ferramentas de IA.
+              O Academy Out é o programa de educação da CCM Tecnologia, em
+              parceria com universidades e instituições. Essa turma passou pela
+              trilha de frontend, aprendendo na prática ao construir um projeto
+              real com apoio de ferramentas de IA.
             </p>
-            <p>
-              No fim, cada aluno publica sua landing page nesta vitrine open
-              source.
-            </p>
+            <p>No fim, cada aluno publica sua landing page nesta vitrine.</p>
           </div>
         </div>
 
@@ -29,7 +27,7 @@ export function AboutSection() {
           <img
             src={IMAGE}
             alt=""
-            className="aspect-[16/10] w-full object-cover grayscale"
+            className="aspect-[16/10] w-full object-cover grayscale-50"
           />
         </div>
       </div>

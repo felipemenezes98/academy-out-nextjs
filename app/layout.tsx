@@ -29,7 +29,6 @@ export const metadata: Metadata = {
     "CCM Academy Out",
     "Academy Out",
     "CCM Tecnologia",
-    "Open Source",
     "Next.js",
     "React",
     "Tailwind CSS",

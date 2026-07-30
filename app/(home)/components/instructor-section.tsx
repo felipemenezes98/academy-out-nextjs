@@ -1,5 +1,5 @@
 const INSTRUCTOR_IMAGE =
-  "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1000&auto=format&fit=crop"
+  "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/ccmtecnologiadc01/b/website-ccm/o/WhatsApp%20Image%202026-07-28%20at%2018.16.54.jpeg"
 
 export function InstructorSection() {
   return (
@@ -9,7 +9,7 @@ export function InstructorSection() {
           <img
             src={INSTRUCTOR_IMAGE}
             alt="Instrutor do Academy Out"
-            className="aspect-[4/5] w-full object-cover grayscale"
+            className="aspect-[6/5] w-full object-cover grayscale-50 dark:brightness-90 dark:grayscale"
           />
         </div>
 
@@ -22,12 +22,12 @@ export function InstructorSection() {
               Felipe Menezes
             </h2>
             <p className="text-sm text-muted-foreground">
-              Software Engineer · CCM Tecnologia
+              Senior Software Engineer · CCM Tecnologia
             </p>
           </div>
           <p className="max-w-md text-sm leading-relaxed text-muted-foreground">
-            Mentoria prática em frontend, produto e IA. Foco em construir com
-            critério, publicar com clareza e formar quem entrega.
+            Mentoria prática em frontend, produto e IA, com foco em quem
+            realmente entrega o trabalho.
           </p>
         </div>
       </div>
