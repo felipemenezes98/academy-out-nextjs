@@ -1,0 +1,133 @@
+:root {
+  --background: #090b09;
+  --surface: #11140f;
+  --surface-strong: #171b14;
+  --olive: #8b9668;
+  --olive-light: #b6c494;
+  --sand: #d8cfb1;
+  --muted: #929889;
+  --danger: #c46a5d;
+  --warning: #d8ad55;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--background);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  color: #f1f3ec;
+  background:
+    radial-gradient(circle at 82% 8%, rgba(139, 150, 104, 0.12), transparent 28rem),
+    radial-gradient(circle at 8% 30%, rgba(216, 207, 177, 0.05), transparent 24rem),
+    var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  color: #0a0c09;
+  background: var(--olive-light);
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.tactical-grid {
+  background-image:
+    linear-gradient(rgba(182, 196, 148, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(182, 196, 148, 0.045) 1px, transparent 1px);
+  background-size: 52px 52px;
+  mask-image: linear-gradient(to bottom, black 0%, black 65%, transparent 100%);
+}
+
+.micro-grid {
+  background-image:
+    linear-gradient(rgba(182, 196, 148, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(182, 196, 148, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.selection-corners {
+  position: relative;
+}
+
+.selection-corners::before,
+.selection-corners::after {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  pointer-events: none;
+  content: "";
+  opacity: 0;
+  transition: opacity 200ms ease, transform 200ms ease;
+}
+
+.selection-corners::before {
+  top: 8px;
+  left: 8px;
+  border-top: 1px solid var(--olive-light);
+  border-left: 1px solid var(--olive-light);
+  transform: translate(-5px, -5px);
+}
+
+.selection-corners::after {
+  right: 8px;
+  bottom: 8px;
+  border-right: 1px solid var(--olive-light);
+  border-bottom: 1px solid var(--olive-light);
+  transform: translate(5px, 5px);
+}
+
+.selection-corners:hover::before,
+.selection-corners:hover::after {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.scan-line {
+  position: absolute;
+  inset-inline: 0;
+  top: -15%;
+  height: 28%;
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent, rgba(182, 196, 148, 0.09), transparent);
+  animation: scan 7s linear infinite;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+@keyframes scan {
+  to {
+    transform: translateY(430%);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-7px); }
+}
+
+.float-slow {
+  animation: float 5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
