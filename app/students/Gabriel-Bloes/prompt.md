@@ -1,0 +1,1 @@
+certo agora vamos colocar as modificaçãoes eu passarei o codigo atual, depois voce me passara o codigo que eu tenho que modificar e o local que eu tenho que modificar(copiar e colar ), a linha que vamos seguir e o cyberpunk 2077 e suas curisidades/ tequinologias, em cardsutilizando o modelo que já estávamos sequindo.

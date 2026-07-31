@@ -1,0 +1,1 @@
+Eu pensei em fazer cads de jogo rapido para ler quando se jogar a primeira vez o jogo para não ficar 
