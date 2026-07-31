@@ -20,7 +20,16 @@ import { DashboardSection } from "./components/dashboard";
  */
 export default function Page() {
 	return (
-		<div className="relative min-h-screen overflow-x-hidden bg-[#0D1117] text-zinc-50 select-none">
+		<div
+	className="
+		relative
+		min-h-screen
+		overflow-hidden
+		bg-[#0D1117]
+		text-zinc-50
+		select-none
+	"
+>
 			{/* Glow superior */}
 			<div
 				aria-hidden

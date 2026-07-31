@@ -32,7 +32,19 @@ const NAV_ITEMS = [
  */
 export function Navbar() {
 	return (
-		<header className="sticky top-0 z-50 border-b border-transparent backdrop-blur-xl">
+		<header
+	className="
+		fixed
+		left-0
+		right-0
+		top-0
+		z-50
+		border-b
+		border-zinc-900/50
+		bg-[#0D1117]/70
+		backdrop-blur-xl
+	"
+>
 			<div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8">
 				{/* Logo */}
 				<Link
