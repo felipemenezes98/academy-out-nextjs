@@ -1,0 +1,15 @@
+# Eletrical Motors
+
+Tema escolhido:
+motores elétricos
+
+Ferramenta de IA:
+Gemini
+
+Prompt principal:
+eu quero montar uma pagina unica para o anuncio de minha empresa de motores elétricos, não é necessario ser um site finalizado pois será usado de exemplo somente, então vou querer só uma demonstração basica doque poderia ser feito pelo site então não precisa ser gerado imagens.
+Eu um site que a pagina principal se inicie com um carrossel de imagens dos novos produtos adicionados e noticias da área, com a história da minha empresa logo em seguida com a imagem do dono da empresa, pode ser usado lorem ipsun pra gerar o texto, logo abaixo teria ja os produtos ofertados separados por categoria de tamanho e demonstrado fotos através de um carrossel de imagens dos produtos, abaixo terão as noticias da região e os usuários de meus motores.
+Faça somente em código html que meu objetivo é somente ter uma aparencia do site, mas será necessario que a pagina seja interativa que ao clicar nos produtos apareça uma imagem expandida com alguns detalhes do produto.
+
+O que aprendi:
+...
