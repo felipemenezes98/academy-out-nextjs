@@ -18,6 +18,10 @@ const ICONS: Record<KpiKey, LucideIcon> = {
   newCustomers: UserPlusIcon,
 }
 
+const deltaFormatter = new Intl.NumberFormat("pt-BR", {
+  maximumFractionDigits: 1,
+})
+
 function Delta({ delta }: { delta: number | null }) {
   if (delta === null) {
     return <span className="text-xs text-muted-foreground">—</span>
@@ -25,9 +29,7 @@ function Delta({ delta }: { delta: number | null }) {
 
   const positive = delta >= 0
   const Icon = positive ? ArrowUpRightIcon : ArrowDownRightIcon
-  const formatted = `${positive ? "+" : ""}${new Intl.NumberFormat("pt-BR", {
-    maximumFractionDigits: 1,
-  }).format(delta)}%`
+  const formatted = `${positive ? "+" : ""}${deltaFormatter.format(delta)}%`
 
   return (
     <span
