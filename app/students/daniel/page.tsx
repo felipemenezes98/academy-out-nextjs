@@ -7,46 +7,26 @@ useRef
 } from "react";
 
 
-import data from "./data/philosophers.json";
+import data from "./data/philosophers.json"
 
+import Sidebar from "./components/Sidebar"
+import HeroBanner from "./components/HeroBanner"
+import CategoryCarousel from "./components/CategoryCarousel"
+import SearchBar from "./components/SearchBar"
+import QuoteOfDay from "./components/QuoteOfDay"
+import AuthorModal from "./components/AuthorModal"
+import type { Author, School } from "./types"
 
-import Sidebar from "./components/Sidebar";
+export default function Page() {
+  const topRef = useRef<HTMLDivElement>(null)
 
-import HeroBanner from "./components/HeroBanner";
+  const [search, setSearch] = useState("")
+  const [selected, setSelected] = useState<Author | null>(null)
+  const [activeSchool, setActiveSchool] = useState<string | null>(null)
 
-import CategoryCarousel from "./components/CategoryCarousel";
+  const schools = data.schools as unknown as School[]
 
-import SearchBar from "./components/SearchBar";
-
-import QuoteOfDay from "./components/QuoteOfDay";
-
-import AuthorModal from "./components/AuthorModal";
-
-
-
-export default function Page(){
-
-
-const topRef = useRef<HTMLDivElement>(null);
-
-
-
-const [search,setSearch]=useState("");
-
-const [selected,setSelected]=useState<any>(null);
-
-const [activeSchool,setActiveSchool]=useState<string|null>(null);
-
-
-
-const schools=data.schools;
-
-
-
-const allAuthors=
-schools.flatMap(
-school=>school.authors
-);
+  const allAuthors = schools.flatMap((school) => school.authors)
 
 
 

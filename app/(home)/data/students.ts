@@ -36,7 +36,16 @@ export const students: Student[] = [
     github: "CCauanf",
   },
   {
-    slug: "Eduardo-Drude",
+    slug: "daniel",
+    name: "Daniel",
+    project: "PhiloFlix",
+    subject: "Filosofia",
+    description:
+      "Catálogo estilo streaming de filósofos e escritores, com carrosséis, busca e perfil dos autores.",
+    github: "",
+  },
+  {
+      slug: "Eduardo-Drude",
     name: "Eduardo Drude",
     project: "Eletrical Motors",
     subject: "Indústria",
