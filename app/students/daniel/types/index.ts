@@ -1,25 +1,22 @@
 export interface Author {
-
-id:number;
-name:string;
-image:string;
-banner:string;
-birth:string;
-death:string;
-summary:string;
-
-genres:{
- [key:string]:string[]
+  id: number
+  name: string
+  image: string
+  banner: string
+  country?: string
+  period: string
+  summary: string
+  works?: string[]
+  tags?: string[]
+  genres: {
+    [key: string]: string[]
+  }
 }
 
-}
-
-
-export interface School{
-
-id:number;
-name:string;
-description:string;
-authors:Author[];
-
+export interface School {
+  id: number
+  name: string
+  description: string
+  banner?: string
+  authors: Author[]
 }
