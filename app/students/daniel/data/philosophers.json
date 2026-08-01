@@ -1,0 +1,913 @@
+{
+  "schools": [
+    {
+  "id": 1,
+  "name": "Filosofia Grega Antiga",
+  "description": "Os primeiros grandes pensadores ocidentais que buscaram explicar a natureza, o conhecimento, a ética e a existência humana.",
+  "banner": "https://images.unsplash.com/photo-1601581875309-fafbf2d3ed3a",
+  "authors": [
+    {
+      "id": 1,
+      "name": "Sócrates",
+      "image": "https://images.unsplash.com/photo-1564399579883-451a5d44ec08",
+      "banner": "https://images.unsplash.com/photo-1505664194779-8beaceb93744",
+      "country": "Grécia",
+      "period": "470 a.C. - 399 a.C.",
+      "summary": "Filósofo ateniense considerado um dos fundadores da filosofia ocidental. Desenvolveu o método socrático baseado no questionamento e no diálogo.",
+      "works": [
+        "Apologia de Sócrates",
+        "Diálogos de Platão"
+      ],
+      "tags": [
+        "ética",
+        "conhecimento",
+        "virtude"
+      ],
+      "genres": {
+        "amor": [
+          "O amor é uma busca constante pelo conhecimento e pela verdade."
+        ],
+        "motivacao": [
+          "Uma vida sem reflexão não merece ser vivida."
+        ],
+        "reflexao": [
+          "Só sei que nada sei."
+        ],
+        "vida": [
+          "Conhece-te a ti mesmo."
+        ],
+        "conhecimento": [
+          "A verdadeira sabedoria está em reconhecer a própria ignorância."
+        ]
+      }
+    },
+
+
+    {
+      "id":2,
+      "name":"Platão",
+      "image":"https://images.unsplash.com/photo-1507842217343-583bb7270b66",
+      "banner":"https://images.unsplash.com/photo-1519682337058-a94d519337bc",
+      "country":"Grécia",
+      "period":"428 a.C. - 348 a.C.",
+      "summary":"Discípulo de Sócrates e fundador da Academia de Atenas. Desenvolveu a teoria das ideias e escreveu grandes diálogos filosóficos.",
+      "works":[
+        "A República",
+        "O Banquete",
+        "Fédon",
+        "Timeu"
+      ],
+      "tags":[
+        "metafísica",
+        "política",
+        "educação"
+      ],
+      "genres":{
+        "amor":[
+          "O amor é o desejo de possuir o belo e o verdadeiro."
+        ],
+        "motivacao":[
+          "A educação é a arma mais poderosa para transformar uma sociedade."
+        ],
+        "reflexao":[
+          "A realidade muitas vezes está escondida além das aparências."
+        ],
+        "conhecimento":[
+          "O conhecimento verdadeiro nasce da reflexão."
+        ]
+      }
+    },
+
+
+    {
+      "id":3,
+      "name":"Aristóteles",
+      "image":"https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+      "banner":"https://images.unsplash.com/photo-1495446815901-a7297e633e8d",
+      "country":"Grécia",
+      "period":"384 a.C. - 322 a.C.",
+      "summary":"Filósofo grego discípulo de Platão e professor de Alexandre, o Grande. Desenvolveu estudos sobre ética, política, lógica e ciência.",
+      "works":[
+        "Ética a Nicômaco",
+        "Política",
+        "Metafísica",
+        "Poética"
+      ],
+      "tags":[
+        "ética",
+        "ciência",
+        "lógica"
+      ],
+      "genres":{
+        "amor":[
+          "O amor é uma amizade acompanhada de virtude."
+        ],
+        "motivacao":[
+          "Somos aquilo que fazemos repetidamente."
+        ],
+        "reflexao":[
+          "A excelência não é um ato, mas um hábito."
+        ],
+        "vida":[
+          "A felicidade depende de nós mesmos."
+        ],
+        "conhecimento":[
+          "O começo de toda ciência é o espanto."
+        ]
+      }
+    },
+
+
+    {
+      "id":4,
+      "name":"Heráclito",
+      "image":"https://images.unsplash.com/photo-1512820790803-83ca734da794",
+      "banner":"https://images.unsplash.com/photo-1519682337058-a94d519337bc",
+      "country":"Grécia",
+      "period":"540 a.C. - 480 a.C.",
+      "summary":"Filósofo pré-socrático conhecido pela ideia de transformação constante da realidade.",
+      "works":[
+        "Fragmentos"
+      ],
+      "tags":[
+        "mudança",
+        "natureza",
+        "existência"
+      ],
+      "genres":{
+        "reflexao":[
+          "Tudo flui, nada permanece igual."
+        ],
+        "vida":[
+          "A mudança é a única constante da existência."
+        ],
+        "conhecimento":[
+          "A natureza ama esconder-se."
+        ]
+      }
+    },
+
+
+    {
+      "id":5,
+      "name":"Parmênides",
+      "image":"https://images.unsplash.com/photo-1544947950-fa07a98d237f",
+      "banner":"https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+      "country":"Grécia",
+      "period":"515 a.C. - 450 a.C.",
+      "summary":"Filósofo pré-socrático que defendia que a razão é superior aos sentidos.",
+      "works":[
+        "Sobre a Natureza"
+      ],
+      "tags":[
+        "ontologia",
+        "ser",
+        "razão"
+      ],
+      "genres":{
+        "reflexao":[
+          "O ser é, e o não ser não é."
+        ],
+        "conhecimento":[
+          "A verdade pertence ao caminho da razão."
+        ]
+      }
+    },
+
+
+    {
+      "id":6,
+      "name":"Pitágoras",
+      "image":"https://images.unsplash.com/photo-1505664194779-8beaceb93744",
+      "banner":"https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+      "country":"Grécia",
+      "period":"570 a.C. - 495 a.C.",
+      "summary":"Filósofo e matemático fundador da escola pitagórica, relacionando números, música e harmonia universal.",
+      "works":[
+        "Doutrinas Pitagóricas"
+      ],
+      "tags":[
+        "matemática",
+        "harmonia",
+        "cosmos"
+      ],
+      "genres":{
+        "sabedoria":[
+          "A educação é a melhor provisão para a velhice."
+        ],
+        "conhecimento":[
+          "Todas as coisas possuem uma ordem."
+        ],
+        "reflexao":[
+          "A alma busca harmonia através do conhecimento."
+        ]
+      }
+    },
+
+
+    {
+      "id":7,
+      "name":"Demócrito",
+      "image":"https://images.unsplash.com/photo-1516979187457-637abb4f9353",
+      "banner":"https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "country":"Grécia",
+      "period":"460 a.C. - 370 a.C.",
+      "summary":"Filósofo conhecido pela teoria atomista, segundo a qual toda matéria seria formada por partículas indivisíveis.",
+      "works":[
+        "Pequena Ordem do Mundo"
+      ],
+      "tags":[
+        "atomismo",
+        "ciência",
+        "natureza"
+      ],
+      "genres":{
+        "conhecimento":[
+          "A verdade está escondida nas profundezas."
+        ],
+        "vida":[
+          "Uma vida sem alegria é como uma longa estrada sem destino."
+        ],
+        "reflexao":[
+          "A felicidade não depende de riquezas, mas da alma."
+        ]
+      }
+    }
+  ]
+},
+{
+  "id": 2,
+  "name": "Estoicismo",
+  "description": "Escola filosófica helenística que ensina autocontrole, virtude, racionalidade e aceitação dos acontecimentos que não podem ser modificados.",
+  "banner": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+  "authors": [
+    {
+      "id": 8,
+      "name": "Zenão de Cítio",
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2",
+      "banner": "https://images.unsplash.com/photo-1505664194779-8beaceb93744",
+      "country": "Chipre",
+      "period": "334 a.C. - 262 a.C.",
+      "summary": "Fundador do estoicismo, defendia que a felicidade humana depende da virtude e do alinhamento com a razão.",
+      "works": [
+        "República",
+        "Da Vida Segundo a Natureza"
+      ],
+      "tags": [
+        "estoicismo",
+        "virtude",
+        "razão"
+      ],
+      "genres": {
+        "motivacao": [
+          "A verdadeira felicidade está em viver de acordo com a natureza."
+        ],
+        "reflexao": [
+          "A razão deve governar nossas escolhas."
+        ],
+        "vida": [
+          "A tranquilidade nasce quando aceitamos aquilo que não controlamos."
+        ]
+      }
+    },
+
+
+    {
+      "id": 9,
+      "name": "Sêneca",
+      "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da",
+      "banner": "https://images.unsplash.com/photo-1519682337058-a94d519337bc",
+      "country": "Roma",
+      "period": "4 a.C. - 65 d.C.",
+      "summary": "Filósofo estoico romano, escritor e conselheiro político. Suas obras abordam tempo, morte, felicidade e ética.",
+      "works": [
+        "Cartas a Lucílio",
+        "Da Brevidade da Vida",
+        "Sobre a Ira"
+      ],
+      "tags": [
+        "tempo",
+        "ética",
+        "estoicismo"
+      ],
+      "genres": {
+        "vida": [
+          "Não recebemos uma vida curta, mas fazemos dela uma vida curta."
+        ],
+        "motivacao": [
+          "A dificuldade fortalece a mente."
+        ],
+        "reflexao": [
+          "Enquanto esperamos pelo futuro, perdemos o presente."
+        ],
+        "sabedoria": [
+          "A maior riqueza é possuir uma mente tranquila."
+        ]
+      }
+    },
+
+
+    {
+      "id": 10,
+      "name": "Epicteto",
+      "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d",
+      "banner": "https://images.unsplash.com/photo-1549490349-8643362247b5",
+      "country": "Grécia",
+      "period": "55 d.C. - 135 d.C.",
+      "summary": "Filósofo estoico que ensinava a diferença entre aquilo que depende de nós e aquilo que está fora do nosso controle.",
+      "works": [
+        "Manual de Epicteto",
+        "Discursos"
+      ],
+      "tags": [
+        "disciplina",
+        "liberdade",
+        "controle"
+      ],
+      "genres": {
+        "motivacao": [
+          "Não são os acontecimentos que perturbam as pessoas, mas suas opiniões sobre eles."
+        ],
+        "vida": [
+          "Primeiro aprenda a controlar a si mesmo."
+        ],
+        "reflexao": [
+          "A liberdade começa no domínio interior."
+        ]
+      }
+    },
+
+
+    {
+      "id": 11,
+      "name": "Marco Aurélio",
+      "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+      "banner": "https://images.unsplash.com/photo-1601581875309-fafbf2d3ed3a",
+      "country": "Roma",
+      "period": "121 d.C. - 180 d.C.",
+      "summary": "Imperador romano e filósofo estoico. Seu livro Meditações tornou-se uma das maiores obras de reflexão pessoal.",
+      "works": [
+        "Meditações"
+      ],
+      "tags": [
+        "liderança",
+        "autocontrole",
+        "filosofia prática"
+      ],
+      "genres": {
+        "motivacao": [
+          "A felicidade da sua vida depende da qualidade dos seus pensamentos."
+        ],
+        "sabedoria": [
+          "Você tem poder sobre sua mente, não sobre os eventos externos."
+        ],
+        "existencia": [
+          "A vida de um homem é aquilo que seus pensamentos fazem dela."
+        ]
+      }
+    },
+
+
+    {
+      "id": 12,
+      "name": "Cleantes",
+      "image": "https://images.unsplash.com/photo-1519682337058-a94d519337bc",
+      "banner": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "country": "Grécia",
+      "period": "330 a.C. - 230 a.C.",
+      "summary": "Segundo líder da escola estoica e discípulo de Zenão de Cítio.",
+      "works": [
+        "Hino a Zeus"
+      ],
+      "tags": [
+        "estoicismo",
+        "natureza",
+        "virtude"
+      ],
+      "genres": {
+        "sabedoria": [
+          "O destino guia aqueles que aceitam e arrasta aqueles que resistem."
+        ],
+        "reflexao": [
+          "A harmonia da vida nasce da aceitação da ordem natural."
+        ]
+      }
+    },
+
+
+    {
+      "id": 13,
+      "name": "Crisipo",
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f",
+      "banner": "https://images.unsplash.com/photo-1507842217343-583bb7270b66",
+      "country": "Grécia",
+      "period": "279 a.C. - 206 a.C.",
+      "summary": "Um dos maiores sistematizadores do estoicismo antigo, responsável pela organização lógica da escola.",
+      "works": [
+        "Sobre a Natureza",
+        "Sobre a Lógica"
+      ],
+      "tags": [
+        "lógica",
+        "estoicismo",
+        "filosofia"
+      ],
+      "genres": {
+        "conhecimento": [
+          "A razão é a ferramenta para compreender o mundo."
+        ],
+        "reflexao": [
+          "A sabedoria nasce do pensamento organizado."
+        ]
+      }
+    }
+  ]
+},
+{
+  "id": 3,
+  "name": "Epicurismo",
+  "description": "Escola filosófica fundada por Epicuro que defendia a busca pela felicidade através da tranquilidade, amizade e ausência de sofrimento.",
+  "banner": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429",
+  "authors": [
+
+    {
+      "id": 14,
+      "name": "Epicuro",
+      "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353",
+      "banner": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+      "country": "Grécia",
+      "period": "341 a.C. - 270 a.C.",
+      "summary": "Filósofo grego fundador do epicurismo. Defendia que a felicidade vinha da simplicidade, amizade e ausência de perturbação.",
+      "works": [
+        "Carta a Meneceu",
+        "Máximas Principais",
+        "Sobre a Natureza"
+      ],
+      "tags": [
+        "felicidade",
+        "prazer",
+        "amizade"
+      ],
+      "genres": {
+        "vida": [
+          "Não estrague aquilo que você tem desejando aquilo que não possui."
+        ],
+        "motivacao": [
+          "A riqueza não consiste em possuir muitos bens, mas em possuir poucas necessidades."
+        ],
+        "reflexao": [
+          "O maior fruto da autossuficiência é a liberdade."
+        ],
+        "amor": [
+          "A amizade é uma das maiores fontes de felicidade."
+        ]
+      }
+    },
+
+
+    {
+      "id":15,
+      "name":"Lucrécio",
+      "image":"https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+      "banner":"https://images.unsplash.com/photo-1549490349-8643362247b5",
+      "country":"Roma",
+      "period":"99 a.C. - 55 a.C.",
+      "summary":"Poeta e filósofo romano responsável por divulgar o pensamento epicurista através de sua obra Da Natureza das Coisas.",
+      "works":[
+        "Da Natureza das Coisas"
+      ],
+      "tags":[
+        "poesia",
+        "natureza",
+        "epicurismo"
+      ],
+      "genres":{
+        "conhecimento":[
+          "A natureza deve ser compreendida através da razão."
+        ],
+        "reflexao":[
+          "O medo nasce da ignorância sobre o mundo."
+        ],
+        "vida":[
+          "A tranquilidade é encontrada quando compreendemos a realidade."
+        ]
+      }
+    }
+
+  ]
+},
+
+
+{
+  "id":4,
+  "name":"Ceticismo Helenístico",
+  "description":"Corrente filosófica baseada na suspensão do julgamento e investigação constante da verdade.",
+  "banner":"https://images.unsplash.com/photo-1519682337058-a94d519337bc",
+  "authors":[
+
+    {
+      "id":16,
+      "name":"Pirro de Élis",
+      "image":"https://images.unsplash.com/photo-1601581875309-fafbf2d3ed3a",
+      "banner":"https://images.unsplash.com/photo-1505664194779-8beaceb93744",
+      "country":"Grécia",
+      "period":"360 a.C. - 270 a.C.",
+      "summary":"Fundador do ceticismo antigo, defendia que a suspensão dos julgamentos levava à tranquilidade.",
+      "works":[
+        "Fragmentos de Pirro"
+      ],
+      "tags":[
+        "ceticismo",
+        "dúvida",
+        "investigação"
+      ],
+      "genres":{
+        "reflexao":[
+          "A tranquilidade nasce quando abandonamos certezas absolutas."
+        ],
+        "conhecimento":[
+          "Questionar é o primeiro passo para compreender."
+        ]
+      }
+    },
+
+
+    {
+      "id":17,
+      "name":"Sexto Empírico",
+      "image":"https://images.unsplash.com/photo-1495446815901-a7297e633e8d",
+      "banner":"https://images.unsplash.com/photo-1512820790803-83ca734da794",
+      "country":"Grécia/Roma",
+      "period":"Século II d.C.",
+      "summary":"Médico e filósofo responsável por preservar importantes textos do ceticismo antigo.",
+      "works":[
+        "Hipotiposes Pirrônicas",
+        "Contra os Matemáticos"
+      ],
+      "tags":[
+        "ceticismo",
+        "filosofia da ciência"
+      ],
+      "genres":{
+        "conhecimento":[
+          "A investigação filosófica nunca termina."
+        ],
+        "reflexao":[
+          "A mente tranquila nasce da suspensão do julgamento."
+        ]
+      }
+    }
+
+  ]
+},
+
+
+{
+  "id":5,
+  "name":"Filosofia Medieval",
+  "description":"Pensadores que buscaram unir filosofia clássica e pensamento religioso durante a Idade Média.",
+  "banner":"https://images.unsplash.com/photo-1544947950-fa07a98d237f",
+  "authors":[
+
+    {
+      "id":18,
+      "name":"Santo Agostinho",
+      "image":"https://images.unsplash.com/photo-1507842217343-583bb7270b66",
+      "banner":"https://images.unsplash.com/photo-1600607688969-a5bfcd646154",
+      "country":"Império Romano",
+      "period":"354 - 430",
+      "summary":"Filósofo e teólogo cristão que influenciou profundamente a filosofia medieval.",
+      "works":[
+        "Confissões",
+        "A Cidade de Deus"
+      ],
+      "tags":[
+        "cristianismo",
+        "alma",
+        "tempo"
+      ],
+      "genres":{
+        "amor":[
+          "Ama e faz o que quiseres."
+        ],
+        "reflexao":[
+          "A verdade habita no interior do homem."
+        ],
+        "vida":[
+          "A medida do amor é amar sem medida."
+        ]
+      }
+    },
+
+
+    {
+      "id":19,
+      "name":"São Tomás de Aquino",
+      "image":"https://images.unsplash.com/photo-1519682337058-a94d519337bc",
+      "banner":"https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "country":"Itália",
+      "period":"1225 - 1274",
+      "summary":"Principal representante da escolástica medieval. Desenvolveu uma síntese entre Aristóteles e a filosofia cristã.",
+      "works":[
+        "Suma Teológica",
+        "Suma Contra os Gentios"
+      ],
+      "tags":[
+        "escolástica",
+        "ética",
+        "teologia"
+      ],
+      "genres":{
+        "conhecimento":[
+          "A razão e a fé não são inimigas."
+        ],
+        "sabedoria":[
+          "O bem deve ser buscado e realizado."
+        ],
+        "reflexao":[
+          "Conhecer é participar da verdade."
+        ]
+      }
+    },
+
+
+    {
+      "id":20,
+      "name":"Guilherme de Ockham",
+      "image":"https://images.unsplash.com/photo-1521587760476-6c12a4b040da",
+      "banner":"https://images.unsplash.com/photo-1516979187457-637abb4f9353",
+      "country":"Inglaterra",
+      "period":"1287 - 1347",
+      "summary":"Filósofo medieval conhecido pelo princípio da navalha de Ockham, defendendo explicações mais simples.",
+      "works":[
+        "Summa Logicae"
+      ],
+      "tags":[
+        "lógica",
+        "nominalismo",
+        "ciência"
+      ],
+      "genres":{
+        "conhecimento":[
+          "As explicações não devem multiplicar entidades sem necessidade."
+        ],
+        "reflexao":[
+          "A simplicidade frequentemente revela a verdade."
+        ]
+      }
+    }
+
+  ]
+},
+{
+  "id":6,
+  "name":"Renascimento",
+  "description":"Movimento intelectual e artístico que recuperou ideias clássicas e valorizou o ser humano, a ciência e a razão.",
+  "banner":"https://images.unsplash.com/photo-1549490349-8643362247b5",
+  "authors":[
+
+    {
+      "id":21,
+      "name":"Nicolau Maquiavel",
+      "image":"https://images.unsplash.com/photo-1507842217343-583bb7270b66",
+      "banner":"https://images.unsplash.com/photo-1497366754035-f200968a6e72",
+      "country":"Itália",
+      "period":"1469 - 1527",
+      "summary":"Filósofo político italiano conhecido por suas análises realistas sobre poder, liderança e Estado.",
+      "works":[
+        "O Príncipe",
+        "Discursos sobre a Primeira Década de Tito Lívio"
+      ],
+      "tags":[
+        "política",
+        "poder",
+        "estado"
+      ],
+      "genres":{
+        "politica":[
+          "Os fins podem exigir decisões difíceis."
+        ],
+        "reflexao":[
+          "Quem deseja governar deve compreender a natureza humana."
+        ],
+        "sabedoria":[
+          "A experiência ensina mais que a imaginação."
+        ]
+      }
+    },
+
+
+    {
+      "id":22,
+      "name":"Erasmo de Roterdã",
+      "image":"https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+      "banner":"https://images.unsplash.com/photo-1512820790803-83ca734da794",
+      "country":"Holanda",
+      "period":"1466 - 1536",
+      "summary":"Humanista renascentista defensor da educação, tolerância e reforma intelectual.",
+      "works":[
+        "Elogio da Loucura",
+        "Manual do Cavaleiro Cristão"
+      ],
+      "tags":[
+        "humanismo",
+        "educação",
+        "crítica social"
+      ],
+      "genres":{
+        "reflexao":[
+          "A maior parte da humanidade vive mais pelas opiniões do que pela razão."
+        ],
+        "conhecimento":[
+          "A educação transforma o espírito humano."
+        ]
+      }
+    },
+
+
+    {
+      "id":23,
+      "name":"Thomas More",
+      "image":"https://images.unsplash.com/photo-1519682337058-a94d519337bc",
+      "banner":"https://images.unsplash.com/photo-1505664194779-8beaceb93744",
+      "country":"Inglaterra",
+      "period":"1478 - 1535",
+      "summary":"Pensador renascentista autor de Utopia, obra que questiona modelos políticos e sociais.",
+      "works":[
+        "Utopia"
+      ],
+      "tags":[
+        "sociedade",
+        "política",
+        "utopia"
+      ],
+      "genres":{
+        "politica":[
+          "Uma sociedade justa exige cidadãos conscientes."
+        ],
+        "reflexao":[
+          "A crítica é necessária para melhorar o mundo."
+        ]
+      }
+    },
+
+
+    {
+      "id":24,
+      "name":"Giordano Bruno",
+      "image":"https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "banner":"https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+      "country":"Itália",
+      "period":"1548 - 1600",
+      "summary":"Filósofo renascentista que defendeu ideias cosmológicas avançadas para sua época.",
+      "works":[
+        "Sobre o Universo Infinito e os Mundos"
+      ],
+      "tags":[
+        "cosmologia",
+        "ciência",
+        "liberdade"
+      ],
+      "genres":{
+        "conhecimento":[
+          "O universo é infinito e cheio de possibilidades."
+        ],
+        "motivacao":[
+          "O pensamento livre é uma das maiores expressões humanas."
+        ]
+      }
+    }
+
+  ]
+},
+
+
+{
+  "id":7,
+  "name":"Iluminismo",
+  "description":"Movimento filosófico que valorizou a razão, ciência, liberdade individual e crítica às estruturas tradicionais.",
+  "banner":"https://images.unsplash.com/photo-1495446815901-a7297e633e8d",
+  "authors":[
+
+
+    {
+      "id":25,
+      "name":"Voltaire",
+      "image":"https://images.unsplash.com/photo-1505664194779-8beaceb93744",
+      "banner":"https://images.unsplash.com/photo-1519682337058-a94d519337bc",
+      "country":"França",
+      "period":"1694 - 1778",
+      "summary":"Filósofo iluminista francês defensor da liberdade de expressão, tolerância religiosa e pensamento crítico.",
+      "works":[
+        "Cândido",
+        "Cartas Filosóficas"
+      ],
+      "tags":[
+        "liberdade",
+        "razão",
+        "tolerância"
+      ],
+      "genres":{
+        "motivacao":[
+          "O trabalho afasta três grandes males: tédio, vício e necessidade."
+        ],
+        "politica":[
+          "Aqueles que podem fazer você acreditar em absurdos podem fazer você cometer atrocidades."
+        ],
+        "reflexao":[
+          "A dúvida é uma condição essencial para o pensamento."
+        ]
+      }
+    },
+
+
+    {
+      "id":26,
+      "name":"Jean-Jacques Rousseau",
+      "image":"https://images.unsplash.com/photo-1521587760476-6c12a4b040da",
+      "banner":"https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+      "country":"Suíça",
+      "period":"1712 - 1778",
+      "summary":"Filósofo iluminista que influenciou a política moderna com suas ideias sobre contrato social e educação.",
+      "works":[
+        "Do Contrato Social",
+        "Emílio"
+      ],
+      "tags":[
+        "sociedade",
+        "educação",
+        "política"
+      ],
+      "genres":{
+        "politica":[
+          "O homem nasce livre, mas encontra-se acorrentado em todos os lugares."
+        ],
+        "educacao":[
+          "A infância possui maneiras próprias de ver e sentir."
+        ],
+        "reflexao":[
+          "A verdadeira liberdade está na autonomia."
+        ]
+      }
+    },
+
+
+    {
+      "id":27,
+      "name":"John Locke",
+      "image":"https://images.unsplash.com/photo-1516979187457-637abb4f9353",
+      "banner":"https://images.unsplash.com/photo-1497366811353-6870744d04b2",
+      "country":"Inglaterra",
+      "period":"1632 - 1704",
+      "summary":"Filósofo inglês considerado um dos fundadores do liberalismo político e do empirismo.",
+      "works":[
+        "Ensaio sobre o Entendimento Humano",
+        "Segundo Tratado sobre o Governo"
+      ],
+      "tags":[
+        "liberdade",
+        "empirismo",
+        "política"
+      ],
+      "genres":{
+        "conhecimento":[
+          "A mente humana nasce como uma folha em branco."
+        ],
+        "politica":[
+          "Todo governo legítimo depende do consentimento dos governados."
+        ]
+      }
+    },
+
+
+    {
+      "id":28,
+      "name":"David Hume",
+      "image":"https://images.unsplash.com/photo-1544947950-fa07a98d237f",
+      "banner":"https://images.unsplash.com/photo-1512820790803-83ca734da794",
+      "country":"Escócia",
+      "period":"1711 - 1776",
+      "summary":"Filósofo empirista conhecido por seus estudos sobre conhecimento, causalidade e natureza humana.",
+      "works":[
+        "Tratado da Natureza Humana",
+        "Investigação sobre o Entendimento Humano"
+      ],
+      "tags":[
+        "empirismo",
+        "mente",
+        "ciência"
+      ],
+      "genres":{
+        "conhecimento":[
+          "A experiência é a base do conhecimento humano."
+        ],
+        "reflexao":[
+          "A razão é escrava das paixões."
+        ]
+      }
+    }
+
+  ]
+}
+  ]
+}
