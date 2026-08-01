@@ -1,0 +1,22 @@
+/* -----------------------------------------------------------------------
+   Adicione este bloco ao seu app/globals.css (junto ao @import "tailwindcss").
+   Define as famílias tipográficas e os tokens de cor usados na landing
+   page tributo a Ayrton Senna.
+   ----------------------------------------------------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap");
+
+@theme {
+  --font-display: "Racing Sans One", "Arial Narrow", sans-serif;
+  --font-sans: "Barlow", "Helvetica Neue", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-senna-red: #c81e3c;
+  --color-senna-yellow: #ffd500;
+  --color-senna-blue: #0046ad;
+  --color-senna-green: #00843d;
+  --color-senna-void: #0a0a0c;
+  --color-senna-paper: #f2efe9;
+}
+
+/* Intentionally no html/body rules — would leak into other routes. */

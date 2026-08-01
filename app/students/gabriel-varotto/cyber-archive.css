@@ -1,0 +1,70 @@
+.gv-archive {
+  --gv-cyan: #05d9e8;
+  --gv-pink: #ff2a6d;
+  --gv-yellow: #f9f002;
+  color-scheme: dark;
+}
+
+.gv-archive {
+  scrollbar-width: thin;
+  scrollbar-color: var(--gv-cyan) #111118;
+}
+
+.gv-archive ::-webkit-scrollbar {
+  width: 8px;
+}
+
+.gv-archive ::-webkit-scrollbar-track {
+  background: #111118;
+}
+
+.gv-archive ::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--gv-cyan), var(--gv-pink));
+  border-radius: 999px;
+}
+
+.gv-glitch {
+  position: relative;
+  text-shadow:
+    0 0 12px rgba(5, 217, 232, 0.55),
+    2px 0 rgba(255, 42, 109, 0.55),
+    -2px 0 rgba(249, 240, 2, 0.4);
+}
+
+.gv-scanlines {
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 2px,
+    rgba(255, 255, 255, 0.03) 2px,
+    rgba(255, 255, 255, 0.03) 4px
+  );
+}
+
+.gv-aurora {
+  animation: gv-float 12s ease-in-out infinite;
+}
+
+.gv-aurora-cyan {
+  animation-delay: -3s;
+}
+
+.gv-aurora-yellow {
+  animation-delay: -6s;
+}
+
+@keyframes gv-float {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(24px, -18px) scale(1.08);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gv-aurora {
+    animation: none;
+  }
+}

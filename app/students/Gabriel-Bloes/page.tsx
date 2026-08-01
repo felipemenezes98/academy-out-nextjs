@@ -88,6 +88,9 @@ curiosidade:
 ]
 
 
+type Tecnologia = (typeof tecnologias)[number]
+
+
 
 
 
@@ -216,7 +219,17 @@ abrirDetalhes,
 
 index
 
-}){
+}:Readonly<{
+
+tecnologia:Tecnologia
+
+selecionado:number | null
+
+abrirDetalhes:(tecnologia:Tecnologia)=>void
+
+index:number
+
+}>){
 
 
 return(
@@ -498,7 +511,13 @@ tecnologia,
 
 fechar
 
-}){
+}:Readonly<{
+
+tecnologia:Tecnologia | null
+
+fechar:()=>void
+
+}>){
 
 
 if(!tecnologia)
@@ -961,11 +980,11 @@ const [mostrar,setMostrar] = useState(false)
 
 
 
-const [selecionado,setSelecionado] = useState(null)
+const [selecionado,setSelecionado] = useState<number | null>(null)
 
 
 
-const [terminal,setTerminal] = useState(null)
+const [terminal,setTerminal] = useState<Tecnologia | null>(null)
 
 
 
@@ -987,7 +1006,7 @@ dados.slice(0,3)
 
 
 
-function abrirArquivo(tecnologia){
+function abrirArquivo(tecnologia:Tecnologia){
 
 
 setSelecionado(tecnologia.id)

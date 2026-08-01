@@ -18,7 +18,7 @@ import { CTASection } from "./components/sections/CTASection";
 
 export default function SauloStuquePage() {
   return (
-    <main className="overflow-hidden">
+    <main className="sentinela overflow-hidden">
       <Navbar />
 
       <HeroSection />

@@ -32,7 +32,7 @@ export default function EduardoDrude() {
   const prevSlide = () => setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
 
   // Função para abrir o Modal
-  const openProductModal = (title, image, description) => {
+  const openProductModal = (title: string, image: string, description: string) => {
     setModalData({ title, image, description });
     setModalOpen(true);
   };

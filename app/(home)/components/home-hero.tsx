@@ -29,7 +29,7 @@ export function HomeHero() {
             Academy Out
           </h1>
           <p className="max-w-md text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Formação prática em tecnologia, com mentoria da CCM Tecnologia.
+            Programas práticos em várias trilhas da tecnologia.
           </p>
         </motion.div>
       </div>
