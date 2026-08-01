@@ -3,99 +3,171 @@ export type Student = {
   name: string
   project: string
   subject: string
+  description: string
   github: string
-  image: string
 }
 
 export const students: Student[] = [
   {
-    slug: "felipe-menezes",
-    name: "Felipe Menezes",
-    project: "Coffee House",
-    subject: "Café",
-    github: "felipemenezes98",
-    image:
-      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1200&auto=format&fit=crop",
+    slug: "andrew-freiria",
+    name: "Andrew Freiria",
+    project: "Astrônomos Famosos",
+    subject: "Ciência",
+    description:
+      "Single page sobre Einstein, Hawking e Newton, com suas histórias e principais conquistas.",
+    github: "andrew28f",
   },
   {
-    slug: "ana-silva",
-    name: "Ana Silva",
-    project: "FitAI",
-    subject: "Fitness",
-    github: "gaearon",
-    image:
-      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1200&auto=format&fit=crop",
+    slug: "antony-lampa",
+    name: "Antony Lampa",
+    project: "Inazuma Eleven",
+    subject: "Games",
+    description:
+      "Retrospectiva da franquia Inazuma Eleven, com jogos, linha do tempo e curiosidades.",
+    github: "AntonyLampa",
   },
   {
-    slug: "bruno-costa",
-    name: "Bruno Costa",
-    project: "Nova Bank",
-    subject: "Finanças",
-    github: "sindresorhus",
-    image:
-      "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1200&auto=format&fit=crop",
+    slug: "cauan-felipe",
+    name: "Cauan Felipe",
+    project: "Computer OS",
+    subject: "Computação",
+    description:
+      "Página interativa que explica conceitos de computadores, binário e arquitetura de sistemas.",
+    github: "CCauanf",
   },
   {
-    slug: "carla-mendes",
-    name: "Carla Mendes",
-    project: "Lumen Studio",
-    subject: "Design",
-    github: "tj",
-    image:
-      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop",
+    slug: "Eduardo-Drude",
+    name: "Eduardo Drude",
+    project: "Eletrical Motors",
+    subject: "Indústria",
+    description:
+      "Landing institucional de uma empresa de motores elétricos, com catálogo e carrossel de produtos.",
+    github: "eduardoalmeidadrude",
   },
   {
-    slug: "diego-santos",
-    name: "Diego Santos",
-    project: "Orbit Travel",
-    subject: "Viagem",
-    github: "yyx990803",
-    image:
-      "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1200&auto=format&fit=crop",
+    slug: "Gabriel-Bloes",
+    name: "Gabriel Bloes",
+    project: "Cyberpunk 2077",
+    subject: "Games",
+    description:
+      "Cards interativos sobre as tecnologias e curiosidades do universo de Cyberpunk 2077.",
+    github: "gabrielbloes",
   },
   {
-    slug: "elena-rocha",
-    name: "Elena Rocha",
-    project: "Verde Market",
-    subject: "E-commerce",
-    github: "rauchg",
-    image:
-      "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop",
-  },
-  {
-    slug: "fabio-lima",
-    name: "Fábio Lima",
-    project: "Pulse Music",
-    subject: "Música",
-    github: "kentcdodds",
-    image:
-      "https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=1200&auto=format&fit=crop",
-  },
-  {
-    slug: "gabriela-nunes",
-    name: "Gabriela Nunes",
-    project: "Atlas Docs",
-    subject: "Educação",
-    github: "shadcn",
-    image:
-      "https://images.unsplash.com/photo-1456513080880-7d36d7a3d21c?q=80&w=1200&auto=format&fit=crop",
-  },
-  {
-    slug: "henrique-alves",
-    name: "Henrique Alves",
-    project: "Craft Kitchen",
+    slug: "gabriel-freire",
+    name: "Gabriel Freire",
+    project: "Pizzaria do Barriga",
     subject: "Gastronomia",
-    github: "t3dotgg",
-    image:
-      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1200&auto=format&fit=crop",
+    description:
+      "Landing page vibrante para pizzaria familiar, com cardápio, história e pedido via WhatsApp.",
+    github: "",
   },
   {
-    slug: "isabela-freitas",
-    name: "Isabela Freitas",
-    project: "Northwind",
-    subject: "Produtividade",
-    github: "leerob",
-    image:
-      "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1200&auto=format&fit=crop",
+    slug: "gabriel-goncalves-pace",
+    name: "Gabriel Gonçalves Pace",
+    project: "Camada Zero",
+    subject: "Impressão 3D",
+    description:
+      "Guia minimalista sobre impressão 3D: impressoras, materiais, produtos e aplicações.",
+    github: "gabrielgpacedev",
+  },
+  {
+    slug: "gabriel-reverso",
+    name: "Gabriel Reverso",
+    project: "DevPilot AI",
+    subject: "Tecnologia",
+    description:
+      "Landing de uma plataforma de desenvolvimento com IA, com dashboard e prévia de código.",
+    github: "GabrielReverso",
+  },
+  {
+    slug: "gabriel-varotto",
+    name: "Gabriel Varotto",
+    project: "Cyber Archive",
+    subject: "Games",
+    description:
+      "Arquivo futurista de tecnologias e curiosidades de Cyberpunk 2077, em cards com modal responsivo.",
+    github: "",
+  },
+  {
+    slug: "joao-felipe",
+    name: "João Felipe",
+    project: "Visão Geral",
+    subject: "Dashboard",
+    description:
+      "Painel de vendas com KPIs, gráfico de receita, tabela de pedidos e troca de tema.",
+    github: "joaofelipe-dev",
+  },
+  {
+    slug: "lucas-menezes",
+    name: "Lucas Menezes",
+    project: "Arquitetura x86",
+    subject: "Hardware",
+    description:
+      "Breve história dos processadores Intel x86 e dos modelos mais importantes de cada era.",
+    github: "Luc-C-2",
+  },
+  {
+    slug: "murillo-tercariol",
+    name: "Murillo Tercariol",
+    project: "Ayrton Senna",
+    subject: "Fórmula 1",
+    description:
+      "Tributo interativo à carreira de Ayrton Senna, com scroll animado e estatísticas da F1.",
+    github: "",
+  },
+  {
+    slug: "natan-fernando",
+    name: "Natan Fernando",
+    project: "O Senhor dos Anéis",
+    subject: "Literatura",
+    description:
+      "Landing page inspirada na obra de Tolkien, construída com CSS Grid e componentes responsivos.",
+    github: "MrNemo31",
+  },
+  {
+    slug: "nicolas-ferreira",
+    name: "Nicolas Ferreira",
+    project: "The Beatles & Co.",
+    subject: "Música",
+    description:
+      "Página em abas sobre baixo e violão, com carrossel e conteúdo de cada instrumento.",
+    github: "nikoladev06",
+  },
+  {
+    slug: "rafael-domingos",
+    name: "Rafael Domingos",
+    project: "Leaf Garage",
+    subject: "Automotivo",
+    description:
+      "Landing de oficina de eletrônica automotiva especializada em remap e ganho de potência.",
+    github: "rafaelmdomingos",
+  },
+  {
+    slug: "samuel",
+    name: "Samuel",
+    project: "Custom Freedom",
+    subject: "Motos",
+    description:
+      "Landing sobre motocicletas custom, com galeria, seções de lifestyle e depoimentos.",
+    github: "",
+  },
+  {
+    slug: "saulo-stuque",
+    name: "Saulo Stuque",
+    project: "Sentinela Page",
+    subject: "Militar",
+    description:
+      "Página institucional de temática militar, com seções modulares e layout em containers.",
+    github: "SauloSSM",
+  },
+  {
+    slug: "thiago-henrique",
+    name: "Thiago Henrique",
+    project: "Meus Jogos Favoritos",
+    subject: "Games",
+    description:
+      "Landing inspirada no universo Xbox, com cards interativos dos jogos favoritos.",
+    github: "thiago-henrique-martins",
   },
 ]

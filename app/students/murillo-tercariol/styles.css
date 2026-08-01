@@ -1,0 +1,17 @@
+/* Importado só por app/page.tsx desta pasta — não toca em nenhum
+   arquivo global do projeto. Todas as classes abaixo ficam restritas
+   ao seletor .asenna-scope, que envolve toda a página. */
+
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap");
+
+.asenna-scope {
+  font-family: "Barlow", "Helvetica Neue", sans-serif;
+}
+
+.asenna-scope .font-display {
+  font-family: "Racing Sans One", "Arial Narrow", sans-serif;
+}
+
+.asenna-scope .font-mono {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+}

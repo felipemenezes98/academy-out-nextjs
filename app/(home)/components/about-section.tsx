@@ -1,10 +1,10 @@
 const IMAGE =
-  "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/ccmtecnologiadc01/b/website-ccm/o/a67dbfd1a90a46151cc80144ef2d297a3bd47f89-1280x960.webp"
+  "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/ccmtecnologiadc01/b/website-ccm/o/WhatsApp%20Image%202026-07-29%20at%2021.09.37%20(1).jpeg"
 
 export function AboutSection() {
   return (
-    <section className="w-full px-6 py-16 sm:px-10 sm:py-24">
-      <div className="mx-auto grid w-full max-w-7xl gap-12 lg:grid-cols-12 lg:items-center lg:gap-20">
+    <section className="w-full px-6 py-12 sm:px-10 sm:py-16">
+      <div className="mx-auto grid w-full max-w-7xl gap-10 lg:grid-cols-12 lg:items-center lg:gap-16">
         <div className="flex flex-col gap-5 lg:col-span-5">
           <p className="text-xs tracking-[0.18em] text-muted-foreground uppercase">
             Sobre
@@ -15,11 +15,11 @@ export function AboutSection() {
           <div className="flex max-w-sm flex-col gap-4 text-sm leading-relaxed text-muted-foreground">
             <p>
               O Academy Out é o programa de educação da CCM Tecnologia, em
-              parceria com universidades e instituições. Essa turma passou pela
-              trilha de frontend, aprendendo na prática ao construir um projeto
-              real com apoio de ferramentas de IA.
+              parceria com universidades e instituições. São várias trilhas
+              práticas. Esta página mostra a turma de frontend com IA, em que
+              cada aluno construiu um projeto real.
             </p>
-            <p>No fim, cada aluno publica sua landing page nesta vitrine.</p>
+            <p>No fim, cada um publica sua landing page nesta vitrine.</p>
           </div>
         </div>
 
@@ -27,7 +27,7 @@ export function AboutSection() {
           <img
             src={IMAGE}
             alt=""
-            className="aspect-[16/10] w-full object-cover grayscale-50"
+            className="aspect-[16/10] w-full object-cover"
           />
         </div>
       </div>
