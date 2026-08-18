@@ -1,0 +1,194 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: oklch(0.986 0 0);
+  --foreground: oklch(0.16 0.015 250);
+
+  --card: oklch(0.986 0 0);
+  --card-foreground: oklch(0.16 0.015 250);
+
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.16 0.015 250);
+
+  --primary: oklch(0.55 0.18 255);
+  --primary-foreground: oklch(0.985 0.002 250);
+
+  --secondary: oklch(88.951% 0.00709 248.233);
+  --secondary-foreground: oklch(0.22 0.015 250);
+
+  --muted: oklch(0.94 0.008 250);
+  --muted-foreground: oklch(0.48 0.018 250);
+
+  --accent: oklch(0.93 0.025 250);
+  --accent-foreground: oklch(0.25 0.04 250);
+
+  --destructive: oklch(0.58 0.22 25);
+  --destructive-foreground: oklch(0.985 0.002 250);
+
+  --border: oklch(0.88 0.012 250);
+  --input: oklch(0.88 0.012 250);
+  --ring: oklch(0.55 0.18 255);
+
+  --selection: oklch(78.648% 0.02173 248.203 / 0.25);
+  --selection-hover: oklch(78.648% 0.02173 248.203 / 0.35);
+
+  --chart-1: oklch(0.55 0.18 255);
+  --chart-2: oklch(0.62 0.14 195);
+  --chart-3: oklch(0.58 0.12 150);
+  --chart-4: oklch(0.68 0.14 85);
+  --chart-5: oklch(0.62 0.19 320);
+
+  --radius: 0.6rem;
+}
+
+.dark {
+  --background: oklch(16.421% 0.00209 286.042);
+  --foreground: oklch(0.94 0.008 250);
+
+  --card: oklch(17.98% 0.00633 237.074);
+  --card-foreground: oklch(0.94 0.008 250);
+
+  --popover: oklch(0.145 0.016 250);
+  --popover-foreground: oklch(0.94 0.008 250);
+
+  --primary: oklch(0.62 0.18 255);
+  --primary-foreground: oklch(0.12 0.015 250);
+
+  --secondary: oklch(0.19 0.018 250);
+  --secondary-foreground: oklch(0.9 0.008 250);
+
+  --muted: oklch(0.18 0.016 250);
+  --muted-foreground: oklch(0.62 0.018 250);
+
+  --accent: oklch(0.21 0.035 250);
+  --accent-foreground: oklch(0.92 0.01 250);
+
+  --destructive: oklch(0.58 0.2 25);
+  --destructive-foreground: oklch(0.95 0.01 25);
+
+  --border: oklch(0.25 0.018 250);
+  --input: oklch(0.25 0.018 250);
+  --ring: oklch(0.62 0.18 255);
+
+  --selection: oklch(24.342% 0.03646 252.585 / 0.788);
+  --selection-hover: oklch(24.342% 0.03646 252.585 / 0.788);
+
+  --chart-1: oklch(0.62 0.18 255);
+  --chart-2: oklch(0.67 0.14 195);
+  --chart-3: oklch(0.64 0.12 150);
+  --chart-4: oklch(0.72 0.14 85);
+  --chart-5: oklch(0.68 0.19 320);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.section-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+.object-details {
+  box-shadow: 0 4px 15px oklch(0.2 0.02 250 / 0.08);
+}
+
+.dark .object-details {
+  box-shadow: none;
+}
+
+::selection {
+  background-color: var(--selection);
+  color: var(--foreground);
+}
+
+#symbol {
+  background-color: color-mix(in oklab, var(--color-blue-500) 10%, transparent);
+  border-color: var(--color-blue-500);
+}
+
+#risk-section {
+  border-color: color-mix(in oklab, var(--color-blue-500) /* oklch(62.3% 0.214 259.815) */ 20%, transparent);
+}
+
+/* Scientific dashboard utilities */
+
+.scientific-grid {
+  background-image:
+    linear-gradient(
+      to right,
+      oklch(0.55 0.18 255 / 0.06) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      oklch(0.55 0.18 255 / 0.06) 1px,
+      transparent 1px
+    );
+  background-size: 48px 48px;
+}
+
+.dark .scientific-grid {
+  background-image:
+    linear-gradient(
+      to right,
+      oklch(0.62 0.18 255 / 0.08) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      oklch(0.62 0.18 255 / 0.08) 1px,
+      transparent 1px
+    );
+}
+
+.data-glow {
+  box-shadow:
+    0 0 0 1px oklch(0.55 0.18 255 / 0.12),
+    0 0 32px oklch(0.55 0.18 255 / 0.08);
+}
+
+.dark .data-glow {
+  box-shadow:
+    0 0 0 1px oklch(0.62 0.18 255 / 0.16),
+    0 0 40px oklch(0.62 0.18 255 / 0.12);
+}
+
+.data-label {
+font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+}
+
+.data-value {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.025em;
+  font-weight: var(--font-weight-medium);
+}
+
+.status-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 9999px;
+  background: var(--primary);
+  box-shadow: 0 0 12px oklch(0.55 0.18 255 / 0.7);
+}
+
+.dark .status-dot {
+  box-shadow: 0 0 14px oklch(0.62 0.18 255 / 0.8);
+}
